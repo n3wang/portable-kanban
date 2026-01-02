@@ -1,6 +1,7 @@
-import { v4 as uuidv4 } from 'uuid';
 import * as vscode from 'vscode';
 import { type Kanban, toJson } from './kanban/models/kanban';
+
+const { v4: uuidv4 } = require('uuid');
 
 const viewType = 'portable-kanban.edit';
 
